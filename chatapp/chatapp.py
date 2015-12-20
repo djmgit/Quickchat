@@ -87,8 +87,8 @@ class App(Frame):
         
 	def startchat(self):
 
-                
-		self.server = ('',80)
+                # provide your ip and port.....default is localhost , 80
+		self.server = ('127.0.0.1',80)
 
 		self.s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 		self.s.bind(('127.0.0.1',5002 ))
