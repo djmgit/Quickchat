@@ -1,8 +1,6 @@
 
 import socket
 import time
-host2='127.0.0.1'
-host = '172.16.135.83'
 port = 5000
 
 
