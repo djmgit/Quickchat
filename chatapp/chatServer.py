@@ -10,6 +10,7 @@ port = 5000
 clients = []
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+# provide port......default is 80....leaving the ip '' allows the server to response to other computers as well
 s.bind(('',80))
 s.setblocking(0)
 
